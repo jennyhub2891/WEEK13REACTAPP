@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #0C9B61; /* Navbar background color */
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    float: left; /* Float the list items to the left */
+}
+
+.navbar ul li a {
+    display: block;
+    color: white; /* Link text color */
+    text-align: center; /* Center align the link text */
+    padding: 1rem 1.25rem; /* Padding for the links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navbar ul li a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: black; /* Text color on hover */
+}

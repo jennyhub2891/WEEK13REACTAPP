@@ -1,0 +1,9 @@
+.login-form {
+    text-align: center; /* Center align content */
+    margin-top: 3rem; /* Margin from the top */
+}
+
+.login-heading {
+    border: .125rem solid #333; /* Border around heading */
+    padding: .6rem; /* Padding for heading */
+}

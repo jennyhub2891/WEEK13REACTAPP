@@ -1,4 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
+import './App.css'; // Import the CSS file for styling
+import Navigation from './Navigation'; // Import the Navigation component
+import LoginForm from './LoginForm'; // Import the LoginForm component
+
+// App component
+function App() {
+  return (
+    <div className="App"> 
+      <Navigation />
+      <LoginForm />
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +46,5 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
+
